@@ -1,0 +1,20 @@
+
+
+/*tamanho das imagens das redes sociai no roda pé*/
+.tm-social{
+    width: 50px; 
+    height: 50px;
+}
+
+/*NAVBAR com varias cores*/
+.navbar-color{
+    background: rgb(2,0,36);
+    background: linear-gradient(291deg, rgb(111, 111, 124) 2%, rgb(81, 31, 157) 30%, rgba(0,212,255,1) 100%)!important;
+}
+
+/*fundo da body para preenchimento das laterais*/
+.degradezin{
+    background: rgb(2,0,36);
+    background: linear-gradient(291deg, rgb(111, 111, 124) 2%, rgb(81, 31, 157) 30%, rgba(0,212,255,1) 100%)!important;
+}
+

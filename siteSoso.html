@@ -1,61 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!-- Meta tags Obrigatórias -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <!-- Bootstrap CSS para o paralax -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <style>
-        .tm-social{
-            width: 50px; 
-            height: 50px;
-        }
-    </style>
+    <!-- CSS criado -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
     
     <title>Site do Papito e da Soso!</title>
   </head>
-  <body>
-    
+  <body> 
+
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <a class="navbar-brand" href="#">Papito e Soso</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Casita <span class="sr-only">(página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Links maneiros</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Listinha
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Redes Sociais</a>
-                <a class="dropdown-item" href="#">Danças</a>
-                <a class="dropdown-item" href="#">Fotos</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Erros de gravacao</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Chega mais</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquise aqui</button>
-          </form>
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-12 p-0">
+          
+          <nav class="navbar navbar-expand-lg navbar-light navbar-color bg-dark">
+            <a class="navbar-brand" href="#">Papito e Soso</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Casita <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Links maneiros</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Listinha
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Redes Sociais</a>
+                    <a class="dropdown-item" href="#">Danças</a>
+                    <a class="dropdown-item" href="#">Fotos</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Erros de gravacao</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Chega mais</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquise aqui</button>
+              </form>
+            </div>
+          </nav>
         </div>
-      </nav>
+
+      </div>
+
+    </div>
+    
 
 
       <!-- Carrossel -->
@@ -74,7 +86,7 @@
             <img class="d-block w-100" width= "1280" height="720" src="assets/img/foto parque.png" alt="Primeiro Slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" width= "1280" height="720" src="assets/img/Soso sorrisao fundo.jpeg" alt="Segundo Slide">
+            <img class="d-block w-100" width= "1280" height="720" src="assets/img/sorrisin papai fifi.jpg" alt="Segundo Slide">
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" width= "1280" height="720" src="assets/img/beijo no papito.jpg" alt="Terceiro Slide">
@@ -100,14 +112,14 @@
       </div>
 
       <!-- JUMBOTRON -->
-      <div class="jumbotron jumbotron-fluid bg-dark">
+      <div class="jumbotron jumbotron-fluid bg-secondary">
         <div class="container">
-          <h1 class="display-4 text-success">Bora para diversão</h1>
-          <p class="lead text-success">Você realmente gosta de jogos? </p>
+          <h1 class="display-4 text-success font-weight-bold">Bora para diversão</h1>
+          <p class="lead text-success font-weight-bold">Você realmente gosta de jogos? </p>
               
-          <p class="lead text-success">Então lá vai o desafio dos games... </p>
+          <p class="lead text-success font-weight-bold">Então lá vai o desafio dos games... </p>
               
-            <p class="lead text-success">complete as missoes dos nossos jogos favoritos!.</p>
+            <p class="lead text-success font-weight-bold">Complete as missoes dos nossos jogos favoritos!</p>
         </div>
       </div>
 
@@ -181,8 +193,20 @@
       
 
 
+      <!-- PARALAX -->
+      <div class="jumbotron" style="
+          background-image: url('assets/img/Soso\ sorrisao\ fundo.jpeg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          height: 500px;
+          width: 100%;">
+           
+      </div>
+      
+      
+      
       <!-- TEXTO E VIDEO -->
-      <div class="row mt-5 mb-5">
+      <div class="row mt-5 mb-5 ">
         <div class="col-md-6">
             <h3>Ela jura que não é São Paulina</h3>
             <p>Mas quando era pequenininha era minha parceira de jogos!!!.</p>
@@ -195,9 +219,16 @@
         </div>
 
 
-        </div>
+      </div>
 
       <div class="row mt-5 mb-5">
+
+        <div class="col-md-6">
+
+          <video class="w-100" width="400" height="300" controls src="assets/video/dia dos pais.mp4"></video>
+
+        </div>
+        
         <div class="col-md-6">
             <h3>E esse presentao aqui??!!!</h3>
             <p>O papito aqui chega choraaa!!!.</p>
@@ -205,14 +236,10 @@
             <p>Como o tempo voaaaaa!!!.</p>
         </div>
 
-        <div class="col-md-6">
-
-            <video class="w-100" width="400" height="300" controls src="assets/video/dia dos pais.mp4"></video>
-
-        </div>
+        
 
 
-        </div>
+      </div>
 
         <!-- FORM - formulario -->
 
@@ -255,12 +282,12 @@
             <div class="col-md-6">
 
                 <p>
-                    Segura a latinhaaa 3d #maqueteAmassada
+                    Segura a latinhaaa 3d!
                 </p>
                 <p>
                    #maqueteAmassada
                 </p>
-                <video class="w-100" width="400" height="300" controls play() src="assets/video/3d em foto do radin CINEMATIC.mp4"></video>
+                <video class="w-100" width="400" height="300" autoplay loop src="assets/video/3d em foto do radin CINEMATIC.mp4"></video>
     
             </div>
            
@@ -281,7 +308,7 @@
                 <div class="col-md-12 d-flex justify-content-center">
                     
                         <a href="https://www.linkedin.com/in/thipedroso/" class="p-4">
-                            <img class="tm-social" src="assets/img/linkedin.png" alt="logo linkedIn">
+                            <img class="tm-social" src="assets/img/linkedin.png" alt="logo linkedIn"> 
                         </a>
                         <a href="https://www.instagram.com/thii.pedroso/" class="p-4">
                             <img class="tm-social" src="assets/img/instagram.png" alt="logo instagram">
@@ -319,6 +346,13 @@
 
 
 
+    <!-- JavaScript para maimar logos com  o mouse -->
+    <script src="assets/js/SosoScrypt.js"></script>
+    
+    <!-- JavaScript para o paralax -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
